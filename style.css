@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav__link:hover {
+    color: rgb(233, 219, 20);
+}
+
+.main {
+    background-color: rgb(153, 202, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(img/zima-snezhinki-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc {
+    display: flex;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.title__top {
+    font-family: 'Great Vibes', cursive;
+    color: rgba(230, 75, 3, 0.842);
+}
+
+.title__bottom {
+    text-transform: uppercase;
+    font-family: 'Libre Bodoni', serif;
+    color: rgb(12, 240, 99);
+}
+
+.main__desc {
+    width: 500px;
+    font-size: 18px;
+}
+
+.main__link {
+    background-color: rgba(255, 153, 221, 0.842);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    min-width: 100px;
+    font-family: 'Libre Bodoni', serif;
+    display: block;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.cekshn {
+    height: 100vh;
+}
+
+.desc__img-wrap {
+    width: 50%;
+}
+
+.desc__info {
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: url(img/9.webp) no-repeat top right / 200px, url(img/5926269.jpg) no-repeat;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: rgb(250, 4, 197);
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sekcion__col {
+    width: 50%;
+}
+
+.desc__text {
+    justify-content: center;
+}
+
+.poem__text {
+    color: rgb(250, 4, 197);
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 50px;
+}
+
+.pop {
+    height: 100vh;
+}
+
+.poem {
+    background: url(img/fa.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 25px;
+    font-weight: bold;
+    align-items: center;
+    background-color: aqua;
+
+}
